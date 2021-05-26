@@ -13,12 +13,12 @@ public interface IApplicationService {
 	
 	public Collection<Client> listerClients();  //lister les clients
 	public void ajouterClient();  //ajouter un client
-	public Client updateClient();  //modifier un client
+	public Client updateClient();  //modifier un client....
 	public void deleteClient();    //supprimer un client
 	
 	//Produits
 	
-	public Collection<Produit> listerProduits();  //lister les produits
+	public Collection<Produit> listerProduits();   //lister les produits..
 	public void ajouterProduit();  //ajouter un produit
 	public Client updateProduit();  //modifier un produit
 	public void deleteProduit();    //supprimer un produit
