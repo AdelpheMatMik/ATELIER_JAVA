@@ -33,9 +33,6 @@ public class Commande  implements Serializable{
 	private Collection<Produit> produits;
 	
 	
-	
-	
-	
 	//getters & setters
 	public Long getIdCommande() {
 		return idCommande;
